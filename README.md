@@ -90,7 +90,7 @@ root@46ef30c4b5eb:~# ros2 run demo_nodes_cpp talker
 [INFO] [1594330241.045615802] [talker]: Publishing: 'Hello World: 10'
 ```
 
-- Abrir outro terminal e acessar o docker container do listener e rodar iniciar o nó do listener:
+- Abrir outro terminal, acessar o docker container do listener e rodar iniciar o nó do listener:
 
 ```
 docker-compose exec listener bash 
