@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  talker:
+    image: osrf/ros:foxy-desktop
+    tty: true 
+  listener:
+    image: osrf/ros:foxy-desktop
+    tty: true
+    depends_on:
+      - talker
