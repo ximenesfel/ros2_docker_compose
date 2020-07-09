@@ -65,7 +65,7 @@ ros2_docker_compose_talker_1     /ros_entrypoint.sh bash   Up
 
 # Uso
 
-- Acessar o docker container do talker e rodar iniciar o nó do talker:
+- Acessar o docker container do talker e rodar o nó do talker:
 
 ```
 docker-compose exec talker bash 
@@ -90,7 +90,7 @@ root@46ef30c4b5eb:~# ros2 run demo_nodes_cpp talker
 [INFO] [1594330241.045615802] [talker]: Publishing: 'Hello World: 10'
 ```
 
-- Abrir outro terminal, acessar o docker container do listener e rodar iniciar o nó do listener:
+- Abrir outro terminal, acessar o docker container do listener e rodar o nó do listener:
 
 ```
 docker-compose exec listener bash 
